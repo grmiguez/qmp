@@ -6,8 +6,6 @@ public class Outfit {
     private final Item lowerClothing;
     private final Item footWear;
 
-    // TODO: ocultar este constructor? -> no valida que el accessory sea accessory,
-    // etc
     public Outfit(Item accessory, Item upperClothing, Item lowerClothing, Item footWear) {
         this.accessory = accessory;
         this.upperClothing = upperClothing;
