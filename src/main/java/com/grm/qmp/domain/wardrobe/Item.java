@@ -1,13 +1,12 @@
 package com.grm.qmp.domain.wardrobe;
 
-public class Item implements Wearable {
+public class Item {
 
     private final ItemType type;
-
-    // TODO: esta bien que todo esto sea string?
+    
     private final String name;
     private final String fabric;
-    private final String color; // TODO: enum? hay alguna clasae mejor para esto?
+    private final String color;
     private final String secondaryColor;
 
     public Item(ItemType type, String name, String fabric, String color) {
